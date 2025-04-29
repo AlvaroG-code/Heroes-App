@@ -1,12 +1,10 @@
-# React + Vite
+Proyecto Realizado con #React + #Vite
+Del curso React: De cero a Experto de Fernando Herrera en Dev Talles.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Se Trata de una Lista de Heroes de DC y de Marvel. Cada Heroe tiene su información única.
+La app dispone de un buscador que filtra por heroes.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Se implementa el mantener el usuario activo, el recordar la ultima vista que estaba viendo, borrar del localStorage cuando hace logout.
+Se implementa rutas públicas y rutas privadas
+Se implementa leer argumentos en el URL.
+Se crea un contexto global de la APP
